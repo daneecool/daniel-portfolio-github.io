@@ -1,6 +1,6 @@
 import { InlineCode } from "@/once-ui/components";
 
-const basePath = "/daneecool.github.io";
+const basePath = "https://daneecool.github.io/daniel-portfolio-github.io";
 
 
 const person = {
