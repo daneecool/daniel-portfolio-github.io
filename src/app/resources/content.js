@@ -1,5 +1,6 @@
 import { InlineCode } from "@/once-ui/components";
-import { baseURL } from "./config";
+// import { baseURL } from "./config";
+const baseURL = "daneecool.github.io/daniel-portfolio-github.io"; // Replace with your actual base URL
 
 const person = {
   firstName: "Goh",
