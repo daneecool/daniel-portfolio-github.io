@@ -1,4 +1,5 @@
 import { InlineCode } from "@/once-ui/components";
+import { baseURL } from "./config";
 
 const person = {
   firstName: "Goh",
@@ -7,7 +8,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Front-End Engineer",
-  avatar: "/daniel-portfolio-github.io/images/avatar.jpg", // Use the full static path
+  avatar: `${baseURL}/images/avatar.jpg`, // Use baseURL dynamically
   location: "Asia/Tokyo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa Melayu", "Japanese", "Chinese"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -222,72 +223,72 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: `/images/gallery/img-01.jpg`,
+      src: `${baseURL}/images/gallery/img-01.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: `/images/gallery/img-02.jpg`,
+      src: `${baseURL}/images/gallery/img-02.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-03.jpg`,
+      src: `${baseURL}/images/gallery/img-03.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: `/images/gallery/img-04.jpg`,
+      src: `${baseURL}/images/gallery/img-04.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-05.jpg`,
+      src: `${baseURL}/images/gallery/img-05.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-06.jpg`,
+      src: `${baseURL}/images/gallery/img-06.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: `/images/gallery/img-07.jpg`,
+      src: `${baseURL}/images/gallery/img-07.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-08.jpg`,
+      src: `${baseURL}/images/gallery/img-08.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: `/images/gallery/img-09.jpg`,
+      src: `${baseURL}/images/gallery/img-09.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-10.jpg`,
+      src: `${baseURL}/images/gallery/img-10.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-11.jpg`,
+      src: `${baseURL}/images/gallery/img-11.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: `/images/gallery/img-12.jpg`,
+      src: `${baseURL}/images/gallery/img-12.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-13.jpg`,
+      src: `${baseURL}/images/gallery/img-13.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: `/images/gallery/img-14.jpg`,
+      src: `${baseURL}/images/gallery/img-14.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
