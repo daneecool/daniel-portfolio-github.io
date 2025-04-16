@@ -9,7 +9,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Front-End Engineer",
-  avatar: `${baseURL}/images/shark.png`, // Use baseURL dynamically
+  avatar: `${baseURL}/images/avatar.jpg`, // Use baseURL dynamically
   location: "Asia/Tokyo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa Melayu", "Japanese", "Chinese"], // optional: Leave the array empty if you don't want to display languages
 };
