@@ -54,7 +54,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Mechanical, Electrical Informatics and Front-End Engineer</>,
   subline: (
     <>
       {/* I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
@@ -122,7 +122,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "${baseURL}/images/projects/project-01/cover-01.jpg",
+            src: `${baseURL}/images/projects/project-01/cover-01.jpg`,
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -190,7 +190,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "${baseURL}/images/projects/project-01/cover-04.jpg",
+            src: `${baseURL}/images/projects/project-01/cover-04.jpg`,
             alt: "Project image",
             width: 16,
             height: 9,
