@@ -7,7 +7,7 @@ const withMDX = mdx({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Ensures static files are generated
+  output: "export", // Enables static export
   basePath: "/portfolio", // Replace with your repository name if deploying to a project page
   assetPrefix: "/portfolio", // Replace with your repository name if deploying to a project page
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
