@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Goh",
+  lastName: "Daniel Jia Qin",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Front-End Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Tokyo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Bahasa Melayu", "Japanese", "Chinese"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/daneecool",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/goh-daniel-jia-qin-b776381ba/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:daneework93.gmail.com",
   },
 ];
 
@@ -55,8 +55,12 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      {/* I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      <br /> user experiences. After hours, I build my own projects. */}
+      I'm Daniel, currently working as a fron-end engineer at <InlineCode>NKDCOM</InlineCode>, where I made web-application for client. 
+      Graduate from NIAS (Nagasaki Institute of Applied Science), under Mechanical Engineer (bachelor degree), Electrical and Informatics Science) master degree.
+      I have experience working as a student researcher in <InlineCode>CERN</InlineCode>, Switzerland in <InlineCode>ALICE</InlineCode> (A Large Hadron Collder Experiment) detector as Infrastucture and 
+      Electrical Engineer.
     </>
   ),
 };
@@ -81,9 +85,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        {/* Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        experiences, and the convergence of design and technology. */}
+
+        Daniel is a Malaysian-based front-end engineer in Japan, passion for cyber security, IoT emebedded engineer 
+        and full-stack engineer for transforming complex challenges into simple, user friendly solutions. 
+        His work span digital interfaces, interactive experinces, and the convergence of design and technology.
       </>
     ),
   },
@@ -92,17 +100,21 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "ALICE CERN",
+        timeframe: "2018 - 2024",
+        role: "Electrical and Informatics Science Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            {/* Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            engagement and 30% faster load times. */}
+            Redesigned the DCS (Detector Control System) in CERN ALICE Detector, also detector expert in DCS for a smooth run of data collecting 
+            and safety of the Detector during year of 2019-2022.  
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            {/* Spearheaded the integration of AI tools into design workflows, enabling designers to
+            iterate 50% faster. */}
+            DCS integration for smooth communication between server farm during data taking and detector expert. Make sure a safty shutdown of 
+            Detector during maintainance on-going.
           </>,
         ],
         images: [
@@ -138,13 +150,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Nagasaki University of Applied Science",
+        description: <>Studied Mechanical Engineering.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+      // {
+      //   name: "Build the Future",
+      //   description: <>Studied online marketing and personal branding.</>,
+      // },
     ],
   },
   technical: {
@@ -152,27 +164,27 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Hyperwoks & Solid Works",
+        description: <>Material science and acoustic simulation</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-02.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        //   {
+        //     src: "/images/projects/project-01/cover-03.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "CERN ROOT & C++ Programming for Data Analysis",
+        description: <>Building next gen Particle Acclerator Detector</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
