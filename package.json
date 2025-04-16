@@ -3,7 +3,7 @@
   "version": "1.3.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "GITHUB_PAGES=true next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
