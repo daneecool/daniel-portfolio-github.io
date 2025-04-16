@@ -169,20 +169,32 @@ const about = {
         title: "Hyperwoks & Solid Works",
         description: <>Material science and acoustic simulation</>,
         // optional: leave the array empty if you don't want to display images
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/cover-02.jpg",
-        //     alt: "Project image",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        //   {
-        //     src: "/images/projects/project-01/cover-03.jpg",
-        //     alt: "Project image",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-02.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/project-01/cover-03.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          {
+            src: "",
+            alt: "",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "",
+            alt: "",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
       {
         title: "CERN ROOT & C++ Programming for Data Analysis",
@@ -190,7 +202,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            // src: `${baseURL}/images/projects/project-01/cover-04.jpg`,
+            src: `${baseURL}/images/projects/project-01/cover-04.jpg`,
             alt: "Project image",
             width: 16,
             height: 9,
