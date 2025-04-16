@@ -224,72 +224,72 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg", // Remove "daniel-portfolio-github.io"
+      src: `${basePath}/images/gallery/img-01.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
+      src: `${basePath}/images/gallery/img-02.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
+      src: `${basePath}/images/gallery/img-03.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
+      src: `${basePath}/images/gallery/img-04.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
+      src: `${basePath}/images/gallery/img-05.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-06.jpg",
+      src: `${basePath}/images/gallery/img-06.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: `${basePath}/images/gallery/img-07.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
+      src: `${basePath}/images/gallery/img-08.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-09.jpg",
+      src: `${basePath}/images/gallery/img-09.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-10.jpg",
+      src: `${basePath}/images/gallery/img-10.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
+      src: `${basePath}/images/gallery/img-11.jpg`,
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: `${basePath}/images/gallery/img-12.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: `${basePath}/images/gallery/img-13.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: `${basePath}/images/gallery/img-14.jpg`,
       alt: "image",
       orientation: "horizontal",
     },
