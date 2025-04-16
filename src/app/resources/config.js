@@ -1,4 +1,4 @@
-const baseURL = "/daniel-portfolio-github.io";
+const baseURL = "demo.magic-portfolio.com";
 
 const routes = {
   "/": true,
