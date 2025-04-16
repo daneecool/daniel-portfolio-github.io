@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Front-End Engineer",
-  avatar: "/daniel-portfolio-github.io/images/avatar.jpg",
+  avatar: "/images/avatar.jpg", // Remove "daniel-portfolio-github.io"
   location: "Asia/Tokyo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa Melayu", "Japanese", "Chinese"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -222,7 +222,7 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/img-01.jpg", // Remove "daniel-portfolio-github.io"
       alt: "image",
       orientation: "vertical",
     },
