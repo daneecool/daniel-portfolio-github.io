@@ -10,6 +10,9 @@ const nextConfig = {
   output: "export", // Enables static export
   basePath: "/daniel-portfolio-github.io", // Replace with your repository name if deploying to a project page
   assetPrefix: "/daniel-portfolio-github.io", // Replace with your repository name if deploying to a project page
+  images: {
+    unoptimized: true, // Disable Next.js image optimization
+  },
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   eslint: {
     ignoreDuringBuilds: true, // Disable ESLint during builds
