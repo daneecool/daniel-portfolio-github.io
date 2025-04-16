@@ -122,8 +122,8 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            // src: `${baseURL}/images/projects/project-01/cover-01.jpg`,
-            src: "https://daneecool.github.io/daniel-portfolio-github.io/images/projects/project-01/cover-01.jpg",
+            src: `${baseURL}/images/projects/project-01/cover-01.jpg`,  // begin here to add on image
+            // src: "https://daneecool.github.io/daniel-portfolio-github.io/images/projects/project-01/cover-01.jpg", 
             alt: "Once UI Project",
             width: 16,
             height: 9,
