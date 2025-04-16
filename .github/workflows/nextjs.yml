@@ -35,6 +35,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Debug Cache Key
+        run: echo "Cache key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}"
       - name: Cache Node.js modules
         uses: actions/cache@v3
         with:
