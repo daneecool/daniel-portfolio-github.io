@@ -1,5 +1,7 @@
 import { InlineCode } from "@/once-ui/components";
 
+const basePath = "/daniel-portfolio-github.io";
+
 const person = {
   firstName: "Goh",
   lastName: "Daniel Jia Qin",
@@ -7,7 +9,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Front-End Engineer",
-  avatar: "/images/avatar.jpg", // Remove "daniel-portfolio-github.io"
+  avatar: `${basePath}/images/avatar.jpg`, // Remove "daniel-portfolio-github.io"
   location: "Asia/Tokyo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa Melayu", "Japanese", "Chinese"], // optional: Leave the array empty if you don't want to display languages
 };
