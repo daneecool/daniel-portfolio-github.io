@@ -91,7 +91,7 @@ const about = {
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology. */}
 
-        Daniel is a Malaysian-based front-end engineer in Japan, passion for cyber security, IoT emebedded engineer 
+        Daniel is a Malaysian-based front-end engineer in Japan, passion for cyber security, IoT embedded engineer 
         and full-stack engineer for transforming complex challenges into simple, user friendly solutions. 
         His work span digital interfaces, interactive experinces, and the convergence of design and technology.
       </>
